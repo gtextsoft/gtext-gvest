@@ -565,34 +565,40 @@
     <!--End pagewrapper-->
 
     <!-- Search Popup -->
-   <div class="search-popup">
+    <div class="search-popup">
       <button class="close-search style-two">
         <span class="icofont-brand-nexus"></span>
       </button>
       <form method="post" action="blog.html">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" name="search-field" value="" required="" />
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" name="search-field" value="" required="" />
-        </div>
-        <div class="form-group">
-          <p class="multiple-guide">
-            Select Investment's type (You can make multiple selections)
-          </p>
-          <div class="multiple-selection-group">
-            <input type="checkbox" name="" id="" />
-            <label for="RealEstate">Real Estate</label>
+        <div class="form-container">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="search-field" value="" required="" />
           </div>
-          <div class="multiple-selection-group">
-            <input type="checkbox" name="" id="" />
-            <label for="RealEstate">Agriculture</label>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="search-field" value="" required="" />
           </div>
-        </div>
-        <div class="button-container">
-          <button class="invest-button" type="submit">Send Mail</button>
+          <div class="form-group">
+            <p class="multiple-guide">
+              Select Investment's type (You can make multiple selections)
+            </p>
+            <div class="multiple-selection-group">
+              <input type="checkbox" name="" id="" />
+              <label for="RealEstate">Real Estate</label>
+            </div>
+            <div class="multiple-selection-group">
+              <input type="checkbox" name="" id="" />
+              <label for="RealEstate">Agriculture</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Message:</label>
+            <textarea name="" id=""></textarea>
+          </div>
+          <div class="button-container">
+            <button class="invest-button" type="submit">Send Mail</button>
+          </div>
         </div>
       </form>
     </div>

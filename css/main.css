@@ -767,15 +767,16 @@ img {
   float: left;
 }
 
-.main-header .header-upper .invest-with-us {
+.invest-with-us {
   padding: 10px 30px;
   background: #2c724f;
   color: white;
   border: 1px solid none;
   border-radius: 30px;
+  margin-top: 50px;
 }
 
-.main-header .header-upper .invest-with-us:hover {
+ .invest-with-us:hover {
   background: transparent;
   color: #2c724f;
   border: 1px solid #2c724f;
@@ -1353,6 +1354,11 @@ img {
   opacity: 0;
   visibility: hidden;
   z-index: 999999;
+  
+}
+
+.mobile-menu .menu-outer{
+  padding-bottom: 20px;
 }
 
 .mobile-menu .nav-logo {
